@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSONModel.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-EngieSmartProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,17 +24,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Realm.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SWRevealViewController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>iOS-Slide-Menu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,22 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DF78486719B54F7FA945F3F0B12EDFB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>56060DF6937F381C1EC7E5A11F7013B8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7D9F8A85EB7F802ED4B0C98C1F5B6F99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,17 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A49A82D9B6CA00CF434D631A59DC06A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AED1769EE21534234E179DA8A6BD03EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BAFA1395744953927AE3B7CAB81B1ED3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E84AFCDF7B9DCD4D34D280442A3653A2</key>
+		<key>F1360BDD4D846299FB8CB314C304D131</key>
 		<dict>
 			<key>primary</key>
 			<true/>

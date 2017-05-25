@@ -60,6 +60,7 @@ NSString * const kconfirmation = @"Confirmation";
     headerView.backgroundColor = [UIColor clearColor];
     return headerView;
 }
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *CellIdentifier = kcellId;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
@@ -96,6 +97,7 @@ NSString * const kconfirmation = @"Confirmation";
     UIWindow *window = [UIApplication sharedApplication].delegate.window;
     window.rootViewController = nv;
 }
+
 - (void)deleteUserPreferences {
     AppDelegate * app = (AppDelegate*)[UIApplication sharedApplication].delegate;
     [app deleteUserPreferences];

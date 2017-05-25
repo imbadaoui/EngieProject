@@ -19,7 +19,6 @@
 		F45C08301ED5851A006C2E49 /* EngieSmartProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C082F1ED5851A006C2E49 /* EngieSmartProjectTests.m */; };
 		F45C083B1ED5851A006C2E49 /* EngieSmartProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C083A1ED5851A006C2E49 /* EngieSmartProjectUITests.m */; };
 		F45C084E1ED58FFF006C2E49 /* SubscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C084D1ED58FFF006C2E49 /* SubscriptionViewController.m */; };
-		F45C08511ED59034006C2E49 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08501ED59034006C2E49 /* User.m */; };
 		F45C08541ED594D5006C2E49 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08531ED594D5006C2E49 /* Account.m */; };
 		F45C08591ED598AB006C2E49 /* EngieWebservicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08581ED598AB006C2E49 /* EngieWebservicesManager.m */; };
 		F45C085C1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C085B1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m */; };
@@ -75,8 +74,6 @@
 		F45C083C1ED5851A006C2E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F45C084C1ED58FFF006C2E49 /* SubscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionViewController.h; sourceTree = "<group>"; };
 		F45C084D1ED58FFF006C2E49 /* SubscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionViewController.m; sourceTree = "<group>"; };
-		F45C084F1ED59034006C2E49 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		F45C08501ED59034006C2E49 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F45C08521ED594D5006C2E49 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		F45C08531ED594D5006C2E49 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		F45C08571ED598AB006C2E49 /* EngieWebservicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngieWebservicesManager.h; sourceTree = "<group>"; };
@@ -238,8 +235,6 @@
 		F45C08491ED58902006C2E49 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F45C084F1ED59034006C2E49 /* User.h */,
-				F45C08501ED59034006C2E49 /* User.m */,
 				F45C08521ED594D5006C2E49 /* Account.h */,
 				F45C08531ED594D5006C2E49 /* Account.m */,
 			);
@@ -584,7 +579,6 @@
 				F45C08591ED598AB006C2E49 /* EngieWebservicesManager.m in Sources */,
 				F45C08751ED6BF2A006C2E49 /* BaseViewController.m in Sources */,
 				F45C08601ED5B0DD006C2E49 /* ProfileViewController.m in Sources */,
-				F45C08511ED59034006C2E49 /* User.m in Sources */,
 				F45C08641ED5B979006C2E49 /* NSString+EmailValidation.m in Sources */,
 				F45C081D1ED5851A006C2E49 /* HomePageViewController.m in Sources */,
 				F45C081A1ED5851A006C2E49 /* AppDelegate.m in Sources */,

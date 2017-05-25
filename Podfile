@@ -8,9 +8,6 @@ target 'EngieSmartProject' do
   # Pods for EngieSmartProject
 
   pod 'AFNetworking'
-  pod 'Realm'
-  pod 'JSONModel'
-  pod 'iOS-Slide-Menu'
   pod 'SWRevealViewController'
 
 

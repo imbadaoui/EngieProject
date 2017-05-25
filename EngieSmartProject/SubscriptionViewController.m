@@ -7,7 +7,6 @@
 //
 
 #import "SubscriptionViewController.h"
-#import "User.h"
 #import "EngieWebservicesManager+Users.h"
 #import "ProfileViewController.h"
 #import "NSString+EmailValidation.h"

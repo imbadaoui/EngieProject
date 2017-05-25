@@ -7,7 +7,6 @@
 //
 
 #import "EngieWebservicesManager+Users.h"
-#import "User.h"
 
 NSString * const kMethodPost = @"POST";
 NSString * const kpathUsers = @"/users";
