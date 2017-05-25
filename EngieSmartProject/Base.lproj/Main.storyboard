@@ -235,7 +235,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NWs-wk-7bV">
-                        <barButtonItem key="leftBarButtonItem" image="menu-button.png" id="Zpu-J0-3Ab">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon" id="Zpu-J0-3Ab">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
@@ -287,7 +287,7 @@
     </scenes>
     <resources>
         <image name="engie_logo" width="595" height="595"/>
-        <image name="menu-button.png" width="22" height="17"/>
+        <image name="menu_icon" width="40" height="40"/>
         <image name="profile_img" width="375" height="375"/>
     </resources>
 </document>
