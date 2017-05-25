@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Account.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+- (Account *)loadAccount;
+- (void)saveAccount:(Account *)account;
+- (void)deleteUserPreferences;
 @end
 

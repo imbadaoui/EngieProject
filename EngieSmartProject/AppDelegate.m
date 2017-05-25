@@ -7,19 +7,34 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ProfileViewController.h"
+#import "SlideTableViewController.h"
+#import "SWRevealViewController.h"
 @interface AppDelegate ()
 
 @end
+
+NSString * const kuserkey = @"account";
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    Account *account = [self loadAccount];
+    if (account) {
+        [self goToProfilePageWithAccount:account];
+    }
     return YES;
 }
 
+- (void)goToProfilePageWithAccount:(Account *)account {
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    SWRevealViewController *revealViewController = [storyboard instantiateViewControllerWithIdentifier:@"RevealVCIdentifier"];
+    self.window.rootViewController = revealViewController;
+    [self.window makeKeyAndVisible];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -47,5 +62,23 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma Storage Manager
 
+- (Account *)loadAccount {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSData *encodedObject = [defaults objectForKey:kuserkey];
+    Account *object = [NSKeyedUnarchiver unarchiveObjectWithData:encodedObject];
+    return object;
+}
+
+- (void)saveAccount:(Account *)account {
+    NSData *encodedObject = [NSKeyedArchiver archivedDataWithRootObject:account];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:encodedObject forKey:kuserkey];
+    [defaults synchronize];
+}
+
+- (void)deleteUserPreferences {
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:kuserkey];
+}
 @end

@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  EngieSmartProject
+
+  Created by Imad BADAOUI on 24/05/2017.
+  Copyright © 2017 Imad BADAOUI. All rights reserved.
+*/
+
+"name" = "Name";
+"email" = "Email";
+"createAccount" = "Create an Account";
+"subscription" = "Subscription";
+"logout" = "Logout";
+"errorMsgSubscription" = "Please verify your Email or your Name";
+"error" = "Error";
+"profile" = "Profile";
+"historique" = "History";
+"logout" = "Logout";
+"welcomeMsg" = "Welcome %@, You are connected with your email : %@";
+"backhomemsg" = "You are going to be directed to Home Page";
+"cancel" = "Cancel";
+

@@ -1,0 +1,22 @@
+//
+//  Engie.pch
+//  EngieSmartProject
+//
+//  Created by Imad BADAOUI on 24/05/2017.
+//  Copyright © 2017 Imad BADAOUI. All rights reserved.
+//
+
+#ifndef Engie_pch
+#define Engie_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+
+// Modèles
+#import "Account.h"
+
+#import "NSString+EmailValidation.h"
+
+#endif /* Engie_pch */

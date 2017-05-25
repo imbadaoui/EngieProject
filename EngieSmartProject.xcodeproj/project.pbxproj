@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091C8BD5627CFD0AC5C09656 /* libPods-EngieSmartProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEB260A187A2E97DE3856E4 /* libPods-EngieSmartProjectUITests.a */; };
+		556A1B54A3D3BE255ADC086F /* libPods-EngieSmartProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EBD7996F0A96032C03D993 /* libPods-EngieSmartProjectTests.a */; };
+		88B37B4DF195E09B0045F6E9 /* libPods-EngieSmartProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095D7EAD5371000770C58A3 /* libPods-EngieSmartProject.a */; };
 		F45C08171ED5851A006C2E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08161ED5851A006C2E49 /* main.m */; };
 		F45C081A1ED5851A006C2E49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08191ED5851A006C2E49 /* AppDelegate.m */; };
-		F45C081D1ED5851A006C2E49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C081C1ED5851A006C2E49 /* ViewController.m */; };
+		F45C081D1ED5851A006C2E49 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C081C1ED5851A006C2E49 /* HomePageViewController.m */; };
 		F45C08201ED5851A006C2E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45C081E1ED5851A006C2E49 /* Main.storyboard */; };
 		F45C08221ED5851A006C2E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45C08211ED5851A006C2E49 /* Assets.xcassets */; };
 		F45C08251ED5851A006C2E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45C08231ED5851A006C2E49 /* LaunchScreen.storyboard */; };
 		F45C08301ED5851A006C2E49 /* EngieSmartProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C082F1ED5851A006C2E49 /* EngieSmartProjectTests.m */; };
 		F45C083B1ED5851A006C2E49 /* EngieSmartProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C083A1ED5851A006C2E49 /* EngieSmartProjectUITests.m */; };
+		F45C084E1ED58FFF006C2E49 /* SubscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C084D1ED58FFF006C2E49 /* SubscriptionViewController.m */; };
+		F45C08511ED59034006C2E49 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08501ED59034006C2E49 /* User.m */; };
+		F45C08541ED594D5006C2E49 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08531ED594D5006C2E49 /* Account.m */; };
+		F45C08591ED598AB006C2E49 /* EngieWebservicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08581ED598AB006C2E49 /* EngieWebservicesManager.m */; };
+		F45C085C1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C085B1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m */; };
+		F45C08601ED5B0DD006C2E49 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C085F1ED5B0DD006C2E49 /* ProfileViewController.m */; };
+		F45C08641ED5B979006C2E49 /* NSString+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08631ED5B979006C2E49 /* NSString+EmailValidation.m */; };
+		F45C086A1ED5C8CB006C2E49 /* SlideTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08691ED5C8CB006C2E49 /* SlideTableViewController.m */; };
+		F45C086F1ED5DB04006C2E49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45C08711ED5DB04006C2E49 /* Localizable.strings */; };
+		F45C08751ED6BF2A006C2E49 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08741ED6BF2A006C2E49 /* BaseViewController.m */; };
+		F45C08771ED7609A006C2E49 /* AccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45C08761ED7609A006C2E49 /* AccountTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1410AEEC98DD11404E67FF5F /* Pods-EngieSmartProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngieSmartProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngieSmartProjectTests/Pods-EngieSmartProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		19EBD7996F0A96032C03D993 /* libPods-EngieSmartProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EngieSmartProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F30C1115051D60F911A898 /* Pods-EngieSmartProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngieSmartProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngieSmartProject/Pods-EngieSmartProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF8DC39D69A9644BF47CC91 /* Pods-EngieSmartProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngieSmartProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngieSmartProjectUITests/Pods-EngieSmartProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4095D7EAD5371000770C58A3 /* libPods-EngieSmartProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EngieSmartProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A7568D957E3A3F0C2C5C32 /* Pods-EngieSmartProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngieSmartProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngieSmartProject/Pods-EngieSmartProject.release.xcconfig"; sourceTree = "<group>"; };
+		8A69D9B2B6A6211BF2848485 /* Pods-EngieSmartProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngieSmartProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EngieSmartProjectTests/Pods-EngieSmartProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEEB260A187A2E97DE3856E4 /* libPods-EngieSmartProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EngieSmartProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45C08121ED5851A006C2E49 /* EngieSmartProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngieSmartProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45C08161ED5851A006C2E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F45C08181ED5851A006C2E49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F45C08191ED5851A006C2E49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F45C081B1ED5851A006C2E49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F45C081C1ED5851A006C2E49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F45C081B1ED5851A006C2E49 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		F45C081C1ED5851A006C2E49 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		F45C081F1ED5851A006C2E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F45C08211ED5851A006C2E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45C08241ED5851A006C2E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +73,30 @@
 		F45C08361ED5851A006C2E49 /* EngieSmartProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngieSmartProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45C083A1ED5851A006C2E49 /* EngieSmartProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngieSmartProjectUITests.m; sourceTree = "<group>"; };
 		F45C083C1ED5851A006C2E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45C084C1ED58FFF006C2E49 /* SubscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionViewController.h; sourceTree = "<group>"; };
+		F45C084D1ED58FFF006C2E49 /* SubscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionViewController.m; sourceTree = "<group>"; };
+		F45C084F1ED59034006C2E49 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F45C08501ED59034006C2E49 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F45C08521ED594D5006C2E49 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		F45C08531ED594D5006C2E49 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		F45C08571ED598AB006C2E49 /* EngieWebservicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngieWebservicesManager.h; sourceTree = "<group>"; };
+		F45C08581ED598AB006C2E49 /* EngieWebservicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngieWebservicesManager.m; sourceTree = "<group>"; };
+		F45C085A1ED59B6E006C2E49 /* EngieWebservicesManager+Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EngieWebservicesManager+Users.h"; sourceTree = "<group>"; };
+		F45C085B1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EngieWebservicesManager+Users.m"; sourceTree = "<group>"; };
+		F45C085D1ED59CA6006C2E49 /* Engie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engie.pch; sourceTree = "<group>"; };
+		F45C085E1ED5B0DD006C2E49 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F45C085F1ED5B0DD006C2E49 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F45C08621ED5B979006C2E49 /* NSString+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmailValidation.h"; sourceTree = "<group>"; };
+		F45C08631ED5B979006C2E49 /* NSString+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmailValidation.m"; sourceTree = "<group>"; };
+		F45C08681ED5C8CB006C2E49 /* SlideTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideTableViewController.h; sourceTree = "<group>"; };
+		F45C08691ED5C8CB006C2E49 /* SlideTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideTableViewController.m; sourceTree = "<group>"; };
+		F45C086B1ED5D9B3006C2E49 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F45C08701ED5DB04006C2E49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F45C08721ED5DB28006C2E49 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F45C08731ED6BF2A006C2E49 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F45C08741ED6BF2A006C2E49 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F45C08761ED7609A006C2E49 /* AccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTests.m; sourceTree = "<group>"; };
+		FCEE70D3765C50285AAE91CC /* Pods-EngieSmartProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngieSmartProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngieSmartProjectUITests/Pods-EngieSmartProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B37B4DF195E09B0045F6E9 /* libPods-EngieSmartProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556A1B54A3D3BE255ADC086F /* libPods-EngieSmartProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +120,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091C8BD5627CFD0AC5C09656 /* libPods-EngieSmartProjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		144391B810AC41354D7BAE1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F30C1115051D60F911A898 /* Pods-EngieSmartProject.debug.xcconfig */,
+				40A7568D957E3A3F0C2C5C32 /* Pods-EngieSmartProject.release.xcconfig */,
+				8A69D9B2B6A6211BF2848485 /* Pods-EngieSmartProjectTests.debug.xcconfig */,
+				1410AEEC98DD11404E67FF5F /* Pods-EngieSmartProjectTests.release.xcconfig */,
+				3CF8DC39D69A9644BF47CC91 /* Pods-EngieSmartProjectUITests.debug.xcconfig */,
+				FCEE70D3765C50285AAE91CC /* Pods-EngieSmartProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		15E09466782329B9F1FE8B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4095D7EAD5371000770C58A3 /* libPods-EngieSmartProject.a */,
+				19EBD7996F0A96032C03D993 /* libPods-EngieSmartProjectTests.a */,
+				DEEB260A187A2E97DE3856E4 /* libPods-EngieSmartProjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F45C08091ED5851A006C2E49 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +157,8 @@
 				F45C082E1ED5851A006C2E49 /* EngieSmartProjectTests */,
 				F45C08391ED5851A006C2E49 /* EngieSmartProjectUITests */,
 				F45C08131ED5851A006C2E49 /* Products */,
+				144391B810AC41354D7BAE1F /* Pods */,
+				15E09466782329B9F1FE8B37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +175,15 @@
 		F45C08141ED5851A006C2E49 /* EngieSmartProject */ = {
 			isa = PBXGroup;
 			children = (
+				F45C086C1ED5DA4B006C2E49 /* Localizing */,
+				F45C08611ED5B67D006C2E49 /* Categories */,
+				F45C08551ED5952C006C2E49 /* WebService */,
+				F45C084A1ED5890B006C2E49 /* Views */,
+				F45C08491ED58902006C2E49 /* Models */,
+				F45C08481ED588F6006C2E49 /* Controllers */,
 				F45C08181ED5851A006C2E49 /* AppDelegate.h */,
 				F45C08191ED5851A006C2E49 /* AppDelegate.m */,
-				F45C081B1ED5851A006C2E49 /* ViewController.h */,
-				F45C081C1ED5851A006C2E49 /* ViewController.m */,
-				F45C081E1ED5851A006C2E49 /* Main.storyboard */,
 				F45C08211ED5851A006C2E49 /* Assets.xcassets */,
-				F45C08231ED5851A006C2E49 /* LaunchScreen.storyboard */,
 				F45C08261ED5851A006C2E49 /* Info.plist */,
 				F45C08151ED5851A006C2E49 /* Supporting Files */,
 			);
@@ -118,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				F45C08161ED5851A006C2E49 /* main.m */,
+				F45C085D1ED59CA6006C2E49 /* Engie.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,6 +204,7 @@
 			children = (
 				F45C082F1ED5851A006C2E49 /* EngieSmartProjectTests.m */,
 				F45C08311ED5851A006C2E49 /* Info.plist */,
+				F45C08761ED7609A006C2E49 /* AccountTests.m */,
 			);
 			path = EngieSmartProjectTests;
 			sourceTree = "<group>";
@@ -140,6 +218,87 @@
 			path = EngieSmartProjectUITests;
 			sourceTree = "<group>";
 		};
+		F45C08481ED588F6006C2E49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F45C081B1ED5851A006C2E49 /* HomePageViewController.h */,
+				F45C081C1ED5851A006C2E49 /* HomePageViewController.m */,
+				F45C084C1ED58FFF006C2E49 /* SubscriptionViewController.h */,
+				F45C084D1ED58FFF006C2E49 /* SubscriptionViewController.m */,
+				F45C085E1ED5B0DD006C2E49 /* ProfileViewController.h */,
+				F45C085F1ED5B0DD006C2E49 /* ProfileViewController.m */,
+				F45C08681ED5C8CB006C2E49 /* SlideTableViewController.h */,
+				F45C08691ED5C8CB006C2E49 /* SlideTableViewController.m */,
+				F45C08731ED6BF2A006C2E49 /* BaseViewController.h */,
+				F45C08741ED6BF2A006C2E49 /* BaseViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F45C08491ED58902006C2E49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F45C084F1ED59034006C2E49 /* User.h */,
+				F45C08501ED59034006C2E49 /* User.m */,
+				F45C08521ED594D5006C2E49 /* Account.h */,
+				F45C08531ED594D5006C2E49 /* Account.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F45C084A1ED5890B006C2E49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F45C084B1ED58925006C2E49 /* Storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F45C084B1ED58925006C2E49 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F45C081E1ED5851A006C2E49 /* Main.storyboard */,
+				F45C08231ED5851A006C2E49 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		F45C08551ED5952C006C2E49 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				F45C08561ED59537006C2E49 /* Networking */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		F45C08561ED59537006C2E49 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F45C08571ED598AB006C2E49 /* EngieWebservicesManager.h */,
+				F45C08581ED598AB006C2E49 /* EngieWebservicesManager.m */,
+				F45C085A1ED59B6E006C2E49 /* EngieWebservicesManager+Users.h */,
+				F45C085B1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F45C08611ED5B67D006C2E49 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F45C08621ED5B979006C2E49 /* NSString+EmailValidation.h */,
+				F45C08631ED5B979006C2E49 /* NSString+EmailValidation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F45C086C1ED5DA4B006C2E49 /* Localizing */ = {
+			isa = PBXGroup;
+			children = (
+				F45C08711ED5DB04006C2E49 /* Localizable.strings */,
+			);
+			name = Localizing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F45C083F1ED5851A006C2E49 /* Build configuration list for PBXNativeTarget "EngieSmartProject" */;
 			buildPhases = (
+				3FF6C72FE0CB596D7094BB8F /* [CP] Check Pods Manifest.lock */,
 				F45C080E1ED5851A006C2E49 /* Sources */,
 				F45C080F1ED5851A006C2E49 /* Frameworks */,
 				F45C08101ED5851A006C2E49 /* Resources */,
+				4213706B46010A7B03724103 /* [CP] Embed Pods Frameworks */,
+				36366BAD4ACF68C0100197FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F45C08421ED5851A006C2E49 /* Build configuration list for PBXNativeTarget "EngieSmartProjectTests" */;
 			buildPhases = (
+				BDD6F6DEA5B36E5750F47301 /* [CP] Check Pods Manifest.lock */,
 				F45C08271ED5851A006C2E49 /* Sources */,
 				F45C08281ED5851A006C2E49 /* Frameworks */,
 				F45C08291ED5851A006C2E49 /* Resources */,
+				0A10A2754F5F553C2C16EAA3 /* [CP] Embed Pods Frameworks */,
+				099D95EC619C3AF27712BD8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F45C08451ED5851A006C2E49 /* Build configuration list for PBXNativeTarget "EngieSmartProjectUITests" */;
 			buildPhases = (
+				05105F1098D2F027F90BDE73 /* [CP] Check Pods Manifest.lock */,
 				F45C08321ED5851A006C2E49 /* Sources */,
 				F45C08331ED5851A006C2E49 /* Frameworks */,
 				F45C08341ED5851A006C2E49 /* Resources */,
+				7982936D1493EB6D7BF5986D /* [CP] Embed Pods Frameworks */,
+				4FA849C44FCAB1394D9BC5DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +396,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = F45C08091ED5851A006C2E49;
 			productRefGroup = F45C08131ED5851A006C2E49 /* Products */;
@@ -247,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45C08251ED5851A006C2E49 /* LaunchScreen.storyboard in Resources */,
+				F45C086F1ED5DB04006C2E49 /* Localizable.strings in Resources */,
 				F45C08221ED5851A006C2E49 /* Assets.xcassets in Resources */,
 				F45C08201ED5851A006C2E49 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +438,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05105F1098D2F027F90BDE73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		099D95EC619C3AF27712BD8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngieSmartProjectTests/Pods-EngieSmartProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A10A2754F5F553C2C16EAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngieSmartProjectTests/Pods-EngieSmartProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36366BAD4ACF68C0100197FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngieSmartProject/Pods-EngieSmartProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF6C72FE0CB596D7094BB8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4213706B46010A7B03724103 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngieSmartProject/Pods-EngieSmartProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FA849C44FCAB1394D9BC5DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngieSmartProjectUITests/Pods-EngieSmartProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7982936D1493EB6D7BF5986D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EngieSmartProjectUITests/Pods-EngieSmartProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD6F6DEA5B36E5750F47301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F45C080E1ED5851A006C2E49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45C081D1ED5851A006C2E49 /* ViewController.m in Sources */,
+				F45C08591ED598AB006C2E49 /* EngieWebservicesManager.m in Sources */,
+				F45C08751ED6BF2A006C2E49 /* BaseViewController.m in Sources */,
+				F45C08601ED5B0DD006C2E49 /* ProfileViewController.m in Sources */,
+				F45C08511ED59034006C2E49 /* User.m in Sources */,
+				F45C08641ED5B979006C2E49 /* NSString+EmailValidation.m in Sources */,
+				F45C081D1ED5851A006C2E49 /* HomePageViewController.m in Sources */,
 				F45C081A1ED5851A006C2E49 /* AppDelegate.m in Sources */,
+				F45C085C1ED59B6E006C2E49 /* EngieWebservicesManager+Users.m in Sources */,
+				F45C086A1ED5C8CB006C2E49 /* SlideTableViewController.m in Sources */,
+				F45C08541ED594D5006C2E49 /* Account.m in Sources */,
 				F45C08171ED5851A006C2E49 /* main.m in Sources */,
+				F45C084E1ED58FFF006C2E49 /* SubscriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +601,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45C08301ED5851A006C2E49 /* EngieSmartProjectTests.m in Sources */,
+				F45C08771ED7609A006C2E49 /* AccountTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +633,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F45C081F1ED5851A006C2E49 /* Base */,
+				F45C086B1ED5D9B3006C2E49 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -327,6 +646,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F45C08711ED5DB04006C2E49 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45C08701ED5DB04006C2E49 /* en */,
+				F45C08721ED5DB28006C2E49 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -334,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -371,7 +700,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -383,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -414,7 +744,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,8 +754,11 @@
 		};
 		F45C08401ED5851A006C2E49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F30C1115051D60F911A898 /* Pods-EngieSmartProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = EngieSmartProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENGIE.EngieSmartProject;
@@ -435,8 +768,11 @@
 		};
 		F45C08411ED5851A006C2E49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A7568D957E3A3F0C2C5C32 /* Pods-EngieSmartProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = EngieSmartProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENGIE.EngieSmartProject;
@@ -446,6 +782,7 @@
 		};
 		F45C08431ED5851A006C2E49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A69D9B2B6A6211BF2848485 /* Pods-EngieSmartProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EngieSmartProjectTests/Info.plist;
@@ -458,6 +795,7 @@
 		};
 		F45C08441ED5851A006C2E49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1410AEEC98DD11404E67FF5F /* Pods-EngieSmartProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EngieSmartProjectTests/Info.plist;
@@ -470,6 +808,7 @@
 		};
 		F45C08461ED5851A006C2E49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF8DC39D69A9644BF47CC91 /* Pods-EngieSmartProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EngieSmartProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +820,7 @@
 		};
 		F45C08471ED5851A006C2E49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEE70D3765C50285AAE91CC /* Pods-EngieSmartProjectUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EngieSmartProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +849,7 @@
 				F45C08411ED5851A006C2E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45C08421ED5851A006C2E49 /* Build configuration list for PBXNativeTarget "EngieSmartProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +858,7 @@
 				F45C08441ED5851A006C2E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45C08451ED5851A006C2E49 /* Build configuration list for PBXNativeTarget "EngieSmartProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +867,7 @@
 				F45C08471ED5851A006C2E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

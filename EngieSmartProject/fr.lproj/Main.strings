@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Inscription avec mon email"; ObjectID = "BWO-Gj-hAL"; */
+"BWO-Gj-hAL.normalTitle" = "Inscription avec mon email";
+
+/* Class = "UIButton"; normalTitle = "Créer mon compte"; ObjectID = "YQP-zy-VyM"; */
+"YQP-zy-VyM.normalTitle" = "Créer mon compte";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Zpu-J0-3Ab"; */
+"Zpu-J0-3Ab.title" = "Menu";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "fpH-ZH-KW0"; */
+"fpH-ZH-KW0.placeholder" = "Nom";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "gOX-7m-rI1"; */
+"gOX-7m-rI1.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Welcome "; ObjectID = "zXx-J1-bnB"; */
+"zXx-J1-bnB.text" = "Bienvenue ";
