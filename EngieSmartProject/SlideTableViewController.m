@@ -65,7 +65,7 @@ NSString * const kconfirmation = @"Confirmation";
     NSString *CellIdentifier = kcellId;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     cell.backgroundColor = [UIColor colorWithRed:38.0/255.0 green:39.0/255.0 blue:45.0/255.0 alpha:1];
-    cell.textLabel.text = [menuItems objectAtIndex:indexPath.row];
+    cell.textLabel.text = NSLocalizedString([menuItems objectAtIndex:indexPath.row], nil);
     cell.imageView.image = [UIImage imageNamed:[menuItems objectAtIndex:indexPath.row]];
     cell.textLabel.textColor = [UIColor whiteColor];
     return cell;

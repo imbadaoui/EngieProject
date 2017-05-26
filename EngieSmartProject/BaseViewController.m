@@ -19,6 +19,7 @@
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:65.0/255.0 green:151.0/255.0 blue:246.0/255.0 alpha:0.8];
     [self setDefaultNavigationTitle];
+    [self setupBottomView];
     // Do any additional setup after loading the view.
 }
 
@@ -31,6 +32,11 @@
 /**
  *  Unique navigation bar title (ENGIE image logo)
  */
+- (void)setupBottomView {
+    UIView *bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 80, [UIScreen mainScreen].bounds.size.width, 40)];
+    bottomView.backgroundColor = [UIColor colorWithRed:65.0/255.0 green:151.0/255.0 blue:246.0/255.0 alpha:0.8];
+    [self.view addSubview:bottomView];
+}
 - (void)setDefaultNavigationTitle
 {
     [self.navigationController setNavigationBarHidden:NO];
